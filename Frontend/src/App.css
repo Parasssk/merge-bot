@@ -45,7 +45,7 @@ main .left .review {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  background-color: rgb(219, 219, 255);
+  background-color: #ff0000;
   color: #000000;
   padding: 0.5rem 2rem;
   font-weight: 500;
@@ -61,3 +61,17 @@ main .right {
   font-size: 1.5rem;
   overflow: auto;
 }
+
+.status {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.status.success {
+  background-color: #16a34a; /* green */
+  color: #ffffff;
+}
+
